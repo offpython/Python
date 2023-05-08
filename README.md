@@ -8,6 +8,6 @@
 
 ## Folder Structure
 ```
-├── ###Python(HERE)
+├── Python
 └── SQL
 ```

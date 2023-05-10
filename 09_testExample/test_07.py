@@ -30,10 +30,9 @@ if matScore < minScore:
 difSocre = maxScore - minScore
 
 print('총점 : {}'.format(totalScore))
-print('평균 : {}'.format(avgScore))
+print('평균 : %.2f' % avgScore)
 print('-' * 30)
-print('최고 점수 과목(점수) : {}, ({})'.format(maxSubject, maxScore))
-print('최저 점수 과목(점수) : {}, ({})'.format(minSubject, minScore))
+print('최고 점수 과목(점수) : {} ({})'.format(maxSubject, maxScore))
+print('최저 점수 과목(점수) : {} ({})'.format(minSubject, minScore))
 print('최고, 최저 점수 차이: {}'.format(difSocre))
 print('-' * 30)
-

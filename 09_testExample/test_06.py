@@ -13,7 +13,7 @@ payPrice = int(input('지불 가격 입력 : '))
 
 if payPrice > productPrice:
     changeMoney = payPrice - productPrice
-    changeMoney = (changeMoney // 10) * 10
+    changeMoney = (changeMoney // 10) * 10 
     print('거스름 돈 : {}(원 단위 절사)'.format(changeMoney))
 
 if changeMoney > money50000:

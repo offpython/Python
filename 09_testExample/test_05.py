@@ -12,7 +12,7 @@ print(menu)
 
 # 실습2
 import datetime
-
+ 
 today = datetime.datetime.today()
 
 myAge = input('나이 입력 : ')

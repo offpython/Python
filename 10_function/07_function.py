@@ -29,3 +29,31 @@ def printNumbers():
 printNumbers()
 print(f'num_out : {num_out}')
 
+# 실습1
+width = int(input('가로 길이 입력 : '))
+height = int(input('세로 길이 입력 : '))
+
+def printArea():
+    triangleArea = width * height / 2
+    squareArea = width * height
+
+    print(f'삼각형 넓이 : {triangleArea}')
+    print(f'사각형 넓이 : {squareArea}')
+
+printArea()
+
+# 실습2
+totalVisit = 0
+
+def countTotalVisit():
+    global totalVisit
+
+    totalVisit += 1
+    print(f'누적 방문객 : {totalVisit}')
+
+countTotalVisit()
+countTotalVisit()
+countTotalVisit()
+countTotalVisit()
+countTotalVisit()
+

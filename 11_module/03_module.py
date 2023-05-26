@@ -27,6 +27,7 @@ cal.mul(10, 20)
 cal.div(10, 20)
 
 # 실습1_scores
+
 import scores as sc
 
 korScore = int(input('국어 점수 입력 : '))

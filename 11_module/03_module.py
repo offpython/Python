@@ -26,4 +26,18 @@ cal.sub(10, 20)
 cal.mul(10, 20)
 cal.div(10, 20)
 
-# 실습1
+# 실습1_scores
+import scores as sc
+
+korScore = int(input('국어 점수 입력 : '))
+engScore = int(input('영어 점수 입력 : '))
+matScore = int(input('수학 점수 입력 : '))
+
+sc.addScore(korScore)
+sc.addScore(engScore)
+sc.addScore(matScore)
+
+print(f'점수 : {sc.getScore()}')
+print(f'총점 : {sc.getTotalScore()}')
+print(f'평균 : {sc.getAvgScore()}')
+

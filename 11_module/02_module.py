@@ -1,12 +1,12 @@
 # 모듈 불러오기
 
 # calmodule
-import calmodule
+import calculator
 
-calmodule.add(10, 20)
-calmodule.sub(10, 20)
-calmodule.mul(10, 20)
-calmodule.div(10, 20)
+calculator.add(10, 20)
+calculator.sub(10, 20)
+calculator.mul(10, 20)
+calculator.div(10, 20)
 
 # 실습 1_lottoMachine
 import lottoMachine

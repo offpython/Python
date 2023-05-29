@@ -54,3 +54,4 @@ plane3 = Plane('yellow', 300, 4000)
 plane1.departure()
 plane2.printPlaneInfo()
 plane3.arrival()
+

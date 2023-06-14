@@ -14,7 +14,14 @@ secondNum = int(input('second number : '))
 add(firstNum, secondNum)
 div(firstNum, secondNum)
 
-# 실습1
+# print(10/0)도 마찬가지
+
+# ValueError: invalid literal for int() with base 10: 'Hello'
+print(int('Hello'))
+
+# IndexError: list index out of range
+list = [1, 2, 3, 4, 5, 6]
+print(list[6])
 
 
 

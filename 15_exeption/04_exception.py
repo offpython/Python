@@ -53,5 +53,9 @@ while n < 6:
     finally:
         dataList.append(data)
 
+print(f'data list: {eveList}')
+print(f'data list: {oddList}')
+print(f'data list: {floatList}')
 print(f'data list: {dataList}')
+
 

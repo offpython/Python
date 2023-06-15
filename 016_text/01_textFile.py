@@ -1,6 +1,6 @@
 # 텍스트 파일 쓰기
 
-file = open('/Users/soysauce/Documents/Study/python/PythonTxt/test.txt', 'w')
+file = open('/016_pythonTxt/test.txt', 'w')
 
 strCnt = file.write('Hello PYTHON!')
 print(f'strCnt : {strCnt}')
@@ -19,6 +19,6 @@ dateStr = '[' + str(lt.tm_year) + '년 ' + \
 
 todaySchedule = input('오늘 일정 : ')
 
-file = open('/Users/soysauce/Documents/Study/python/PythonTxt/test.txt', 'w')
+file = open('/016_pythonTxt/test.txt', 'w')
 file.write(dateStr + todaySchedule)
 file.close()

@@ -1,5 +1,4 @@
 # 함수(2)
-
 # 거리km = 속도km/h * 시간 h
 
 def getDistance(speed, hour, minute):
@@ -22,10 +21,10 @@ d = getDistance(s, h, m)
 print(f'{s}(km/h)속도로 {h}(h)시간 {m}(m) 동안 이동한 거리 : {d}(km)')
 print('-'*60)
 
-
 print('-'*60)
 s = float(input('속도(km/h) 입력 : '))
 d = float(input('거리(km) 입력 : '))
 t = getTime(s, d)
 print(f'{s}(km/h)속도로 {d}(km) 이동한 시간 : {t[0]}(h)시간 {t[1]}(m)분')
 print('-'*60)
+

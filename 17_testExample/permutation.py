@@ -2,7 +2,7 @@
 
 ## 순열 계산 모듈을 만들고 결과 출력
 
-def getPermutationCnt(n, r, logPrint = True):
+def getPermutationCnt(n, r, logPrint = True): #로그찍기
 
     result = 1
     for n in range(n, (n - r), -1):

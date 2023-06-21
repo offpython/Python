@@ -1,3 +1,7 @@
+# 모듈(02)
+
+## 상품 구매 개수에 따라 할인율일 결정되는 모듈을 만들기
+
 import discount as dc
 
 if __name__ == '__main__':
@@ -18,8 +22,4 @@ if __name__ == '__main__':
             flag = False
 
     print(f'할인율 : {result[0]}%')
-    print(f'합계 : {result[1]}원')
-
-
-
-
+    print(f'합계 : {format(result[1], ",")}원')
